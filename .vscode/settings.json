@@ -1,0 +1,29 @@
+{
+    "sqltools.connections": [
+        {
+            "server": "http://65.108.255.109",
+            "port": 18123,
+            "database": "keitaro",
+            "useJWT": false,
+            "requestTimeout": 30000,
+            "enableTls": false,
+            "previewLimit": 50,
+            "password": "5df78e427ac04c3b867f878a39056813",
+            "username": "keitaro",
+            "driver": "ClickHouse",
+            "name": "keitaro"
+        },
+        {
+            "server": "http://91.99.82.194",
+            "port": 8123,
+            "useJWT": false,
+            "requestTimeout": 30000,
+            "enableTls": false,
+            "previewLimit": 50,
+            "password": "cohsh3Yahr6ohlie5Ei",
+            "username": "readonly",
+            "driver": "ClickHouse",
+            "name": "statistic"
+        }
+    ]
+}
